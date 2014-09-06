@@ -1,4 +1,4 @@
-package consulting.asp.legoscore15;
+package consulting.asp.legoscore14;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

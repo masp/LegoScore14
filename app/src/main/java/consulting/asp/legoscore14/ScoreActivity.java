@@ -1,17 +1,21 @@
-package consulting.asp.legoscore15;
+package consulting.asp.legoscore14;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
 
 
 public class ScoreActivity extends ActionBarActivity {
+    private ListView mChallengesList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_score);
+
+        mChallengesList = (ListView) findViewById(R.id.challenge_list);
     }
 
 
